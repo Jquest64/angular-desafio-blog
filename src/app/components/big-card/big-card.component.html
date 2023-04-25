@@ -1,11 +1,15 @@
 <div class="container__big_card">
     <div class="big-card__photo">
-        <img src="https://i.stack.imgur.com/luaq2.png" height="200px" alt="Foto card">
+        <img src="{{ photoCover }}" height="300px" alt="Foto card">
     </div>
     <div class="big-card__title">
-        <h1>Saiu a nova versão do Angular</h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
     <div class="big-card__description">
-        <p>É um fato estabelecido há muito tempo que um leitor será distraído pelo conteúdo legível de uma página ao olhar para o seu layout.</p>
+            <p>
+                <a href="#">
+                    {{ cardDescription }}
+                </a>
+            </p>
     </div>
 </div>
